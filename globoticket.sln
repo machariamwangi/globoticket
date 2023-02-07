@@ -17,6 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ordering", "ordering\orderi
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{93E8B0F3-A340-48F2-8BE8-D94A8BFE4199}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demos", "demos", "{B6651DA8-CF39-4723-8E03-2B6C9230076B}"
+	ProjectSection(SolutionItems) = preProject
+		catalog.yaml = catalog.yaml
+		cluster-role-binding.yml = cluster-role-binding.yml
+		dashboard.txt = dashboard.txt
+		frontend.yaml = frontend.yaml
+		ordering.yaml = ordering.yaml
+		service-account.yaml = service-account.yaml
+		sqlserver.yaml = sqlserver.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
